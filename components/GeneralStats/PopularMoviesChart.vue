@@ -27,7 +27,9 @@
     datasets: [{
       label: 'Popularité',
       data: movieStore.popular.slice(0, 5).map(m => m.popularity),
-      backgroundColor: '#3b82f6'
+      backgroundColor: '#3b82f6',
+      borderRadius: 8 // 👈 ajoute cette ligne
+
     }]
   }
   

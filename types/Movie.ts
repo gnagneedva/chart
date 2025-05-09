@@ -6,6 +6,8 @@ export interface Movie {
     overview: string
     poster_path: string
     release_date: string
+    genre_ids: number[]
+    duration: number;
     // Ajoute d'autres champs selon ton besoin
   }
   
